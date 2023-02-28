@@ -144,7 +144,7 @@ function Login(props) {
 			{props.user && <Redirect to="/feed" />}
 			<Nav>
 				<a href="/">
-					<img src="/images/login-logo.svg" alt="" />
+					<img src="/images/linkedoutbig.png" alt="" height="90" />
 				</a>
 				<div>
 					<Join>Join Now</Join>
@@ -158,7 +158,7 @@ function Login(props) {
 				</Hero>
 				<Form>
 					<Google onClick={() => props.signIn()}>
-						<img src="/images/google.svg" alt="" />
+						<img src="/images/google.svg" alt=""/>
 						Sign in with Google
 					</Google>
 				</Form>

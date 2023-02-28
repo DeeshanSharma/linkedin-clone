@@ -197,7 +197,7 @@ function Header(props) {
 			<Content>
 				<Logo>
 					<a href="/feed">
-						<img src="/images/home-logo.svg" alt="" />
+						<img src="/images/linkedoutsmall.png" alt="" height="40" />
 					</a>
 				</Logo>
 				<Search>
